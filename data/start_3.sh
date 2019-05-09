@@ -1,0 +1,1 @@
+echo hpb123456 | sudo -S nohup ./ghpb --datadir node/data  --networkid=8818 --port 38542 --rpc --rpcport 18545   --rpcaddr 0.0.0.0 --unlock 0x440a3a52b6c268d0fee07f8cd30be1e6c30b4c70 --password ./pwd --mine --debug --rpcapi hpb,web3,admin,txpool,debug,personal,net,miner,prometheus --verbosity 4  > hpb.log 2>&1 &

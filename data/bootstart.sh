@@ -1,0 +1,1 @@
+nohup ./ghpb --datadir bootnode/data  --networkid=8818 --port 38548 --rpc --rpcport 18555   --debug --rpcapi hpb,web3,admin,txpool,debug,personal,net,miner,prometheus --verbosity 4 --nodetype bootnode --unlock 0x300d3c2bcf874b5a21430da0c89dae2a4d10c4d1  --password ./pwd > bootnode.log 2>&1 &
